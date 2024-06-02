@@ -1,0 +1,21 @@
+.chat-header{
+    padding: 0.3rem;
+    padding-top: 0.6rem;
+    margin:0;
+    width:99.5%;
+    height:2.75rem;
+    /* background-color: rgb(25, 25, 83); */
+    background-color: #1d2a3b;
+    /* border-bottom: 1px solid white; */
+    box-shadow: 0 0 40px rgb(130, 69, 133);
+    color: white;
+    border-radius: 0.4rem;
+    display: flex;
+}
+-chat-eventify{
+    
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}

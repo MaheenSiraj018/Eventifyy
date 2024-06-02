@@ -1,0 +1,113 @@
+/* .container{
+    height:30rem;
+    width:80rem;
+    background-color: rgb(250, 250, 255);
+    border-radius: 2rem;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.chat-container {
+  margin: 0;
+  padding: 0;
+    width: 85%;
+    background: white;
+    border-radius: 10px;
+    height:91%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .chat-container-black{
+    margin: 0;
+    padding: 0;
+      width: 85%;
+      background: black;
+      border-radius: 10px;
+      height:91%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+  }
+  
+  
+  .welcome-mesg{
+    padding:0.1em;
+    padding-left: 0.5em;
+    font-size: 3.5rem;
+    color: #402b4d;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  }
+  .welcome-id{
+
+    font-size: 1.75rem;
+    color: black;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  }
+
+  .welcome-id-black{
+    font-size: 1.75rem;
+    color: rgb(177, 171, 171);
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  }
+  /* .lightimg{
+    height:100em;
+    
+  } */
+
+  .messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+  }
+  
+  .message.user {
+    background-color: #1d2a3b;
+    align-self: flex-end;
+    color:white;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  .message.bot {
+    background-color: #402b4d;
+    align-self: flex-start;
+    color:white;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  }
+  
+  input[type="text"] {
+    width: 77em;
+    height:2.5em;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    background-color: rgb(177, 171, 171);;
+  }
+  
+  
